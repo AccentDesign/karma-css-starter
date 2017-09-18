@@ -9,5 +9,5 @@ $ npm install
 ## Gulp
 
 ```bash
-$ gulp watch
+$ npm run watch
 ```
