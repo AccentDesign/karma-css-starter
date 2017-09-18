@@ -11,6 +11,9 @@
   "license": "MIT",
   "bugs": {},
   "homepage": "http://karmacss.com",
+  "scripts": {
+    "watch": "gulp watch"
+  },
   "dependencies": {
     "karma-css": "git+https://git@github.com/accentdesign/karma-css.git"
   },
