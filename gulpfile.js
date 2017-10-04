@@ -30,7 +30,7 @@ var config = {
             'node_modules'
         ]
     },
-    csso: {}
+    cssmin: {}
 };
 
 
@@ -53,7 +53,7 @@ gulp.task('scss', function () {
 
 gulp.task('min', function () {
     return gulp.src([config.publicDir + '/css/*.css', '!' + config.publicDir + '/css/*.min.css'])
-        .pipe($.csso(config.csso))
+        .pipe($.cssmin(config.cssmin))
         .pipe($.rename({suffix: '.min'}))
         .pipe(gulp.dest(config.publicDir + '/css'))
         .pipe($.livereload());
