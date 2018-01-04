@@ -1,3 +1,4 @@
+/*! Karma-CSS v1.6.2 MIT License | http://karmacss.com | https://github.com/accentdesign/karma-css */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 html{
   line-height:1.15;
@@ -1174,10 +1175,11 @@ a{
     border-color:#cacaca;
     outline:0; }
 
+code, kbd, pre, samp{
+  font-family:monospace, monospace; }
+
 code{
-  font-family:monospace, monospace;
   padding:.2rem .5rem;
-  font-size:90%;
   white-space:nowrap;
   background:#f0f0f0;
   border:1px solid #e6e6e6;
@@ -1387,6 +1389,8 @@ blockquote{
   margin:0 0 1.5rem;
   padding:1rem 1.5rem;
   border-left:3px solid #e6e6e6; }
+  blockquote :last-child{
+    margin-bottom:0; }
 .b-white{
   background-color:white; }
 
@@ -1662,7 +1666,10 @@ blockquote{
 .d-table-cell{
   display:table-cell; }
 .img-fluid{
+  min-height:1px;
   max-width:100%;
+  width:100%;
+  display:block;
   height:auto; }
 .scroll-x{
   overflow-x:auto; }
@@ -1674,6 +1681,20 @@ blockquote{
 
 .pointer{
   cursor:pointer; }
+.flip-x{
+  -webkit-transform:scale(-1, 1);
+  -o-transform:scale(-1, 1);
+  transform:scale(-1, 1); }
+
+.flip-y{
+  -webkit-transform:scale(1, -1);
+  -o-transform:scale(1, -1);
+  transform:scale(1, -1); }
+
+.flip-both{
+  -webkit-transform:scale(-1, -1);
+  -o-transform:scale(-1, -1);
+  transform:scale(-1, -1); }
 .flex-row{
   -webkit-box-orient:horizontal;
   -webkit-box-direction:normal;
@@ -1800,6 +1821,11 @@ blockquote{
   -webkit-align-self:stretch;
   -ms-flex-item-align:stretch;
   align-self:stretch; }
+
+@media print{
+  .no-print,
+  .no-print *{
+    display:none !important; } }
 
 .hidden-xs-up{
   display:none !important; }
