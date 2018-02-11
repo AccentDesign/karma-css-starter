@@ -6,6 +6,8 @@
 @import "node_modules/karma-css/scss/import";
 
 /* add your custom modules here */
+@import "module/login";
+@import "module/table";
 
 /* karma utility helpers - probably best at the end of the stylesheet */
 @import "node_modules/karma-css/scss/utilities";

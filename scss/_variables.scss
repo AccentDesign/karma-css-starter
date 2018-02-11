@@ -1,5 +1,40 @@
 // Variables
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// colours
-$colors: ();
+
+$colors: (
+  "bigstone":     rgb(53, 65, 75),
+  "fiord":        rgb(76, 92, 103),
+  "bluebayoux":   rgb(86, 104, 117),
+  "lynch":        rgb(101, 119, 133),
+  "greychateau":  rgb(156, 166, 173),
+  "solitude":     rgb(216, 224, 228)
+);
+
+// defined colors
+$body-background:               map-get($colors, "fiord");
+$font-color:                    map-get($colors, "greychateau");
+$header-font-color:             map-get($colors, "solitude");
+
+// borders
+$border-color:                  map-get($colors, "lynch");
+
+
+// forms
+$input-background:              map-get($colors, "bluebayoux");
+$input-font-color:              map-get($colors, "solitude");
+$input-placeholder-color:       map-get($colors, "bigstone");
+
+
+// tables
+$table-border-color:            map-get($colors, "fiord");
+$table-font-size:               80%;
+$table-hover-color:             map-get($colors, "lynch");
+
+
+// code
+$code-background:               map-get($colors, "bluebayoux");
+
+
+// button
+$button-default-bg-color:       map-get($colors, "bluebayoux");

@@ -1,0 +1,23 @@
+// login
+// ------------------------------------------------------
+
+html,
+body {
+  height: 100%;
+}
+
+// stylelint-disable selector-no-qualifying-type
+
+body.login {
+  display: flex;
+
+  form {
+    width: 330px;
+    padding: 3rem 0 5rem;
+    margin: auto;
+
+    .links {
+      padding-top: 2rem;
+    }
+  }
+}

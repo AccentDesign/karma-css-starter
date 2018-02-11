@@ -1,0 +1,16 @@
+// tables
+// ------------------------------------------------------
+
+thead th {
+  text-transform: uppercase;
+}
+
+tbody tr {
+  background-color: color("bluebayoux");
+}
+
+tbody td {
+  padding: 2rem .85rem;
+  color: color("solitude");
+  border-top-width: .5rem;
+}

@@ -914,8 +914,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #3e3e3e;
-  background: white;
+  color: #9ca6ad;
+  background: #4c5c67;
 }
 
 main {
@@ -955,7 +955,7 @@ button,
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #3e3e3e;
+  color: #9ca6ad;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
@@ -964,16 +964,16 @@ button,
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: white;
-  border: 1px solid #e6e6e6;
+  background-color: #566875;
+  border: 1px solid #657785;
   border-radius: 0.25rem;
   transition: background-color linear 250ms, border-color linear 250ms;
 }
 
 .button:hover, .button:focus {
-  color: #3e3e3e;
-  background-color: #e6e6e6;
-  border-color: #cdcdcd;
+  color: #9ca6ad;
+  background-color: #404e58;
+  border-color: #4f5d68;
   outline: 0;
 }
 
@@ -983,9 +983,9 @@ button,
 }
 
 .button.button-outline:hover, .button.button-outline:focus {
-  color: #252525;
+  color: #808d96;
   background-color: transparent;
-  border-color: #cdcdcd;
+  border-color: #4f5d68;
   outline: 0;
 }
 
@@ -996,7 +996,7 @@ button,
 }
 
 .button.button-clear:hover, .button.button-clear:focus {
-  color: #252525;
+  color: #808d96;
   background-color: transparent;
   border-color: transparent;
   outline: 0;
@@ -1090,10 +1090,10 @@ samp {
 code {
   padding: 0.2rem 0.5rem;
   font-size: 100%;
-  color: #3e3e3e;
+  color: #9ca6ad;
   word-break: break-word;
-  background: #f0f0f0;
-  border: 1px solid #e6e6e6;
+  background: #566875;
+  border: 1px solid #657785;
   border-radius: 0.25rem;
 }
 
@@ -1103,10 +1103,10 @@ pre {
   margin-bottom: 1.5rem;
   overflow-x: auto;
   font-size: 90%;
-  color: #3e3e3e;
+  color: #9ca6ad;
   white-space: pre;
-  background: #f0f0f0;
-  border: 1px solid #e6e6e6;
+  background: #566875;
+  border: 1px solid #657785;
   border-radius: 0.25rem;
 }
 
@@ -1129,9 +1129,9 @@ input[type="date"], input[type="datetime"], input[type="datetime-local"], input[
   margin-bottom: 1.5rem;
   font-family: inherit;
   line-height: 1.5;
-  color: #3e3e3e;
-  background: white;
-  border: 1px solid #e6e6e6;
+  color: #d8e0e4;
+  background: #566875;
+  border: 1px solid #657785;
   border-radius: 0.25rem;
   box-shadow: none;
   transition: background linear 250ms, border-color linear 250ms;
@@ -1142,7 +1142,7 @@ input[type="date"], input[type="datetime"], input[type="datetime-local"], input[
 }
 
 input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="week"]:focus {
-  background: white;
+  background: #566875;
   border-color: #33c3f0;
   outline: 0;
 }
@@ -1167,27 +1167,27 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 ::-webkit-input-placeholder {
-  color: #b9b9b9;
+  color: #35414b;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #b9b9b9;
+  color: #35414b;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #b9b9b9;
+  color: #35414b;
   opacity: 1;
 }
 
 ::-ms-input-placeholder {
-  color: #b9b9b9;
+  color: #35414b;
   opacity: 1;
 }
 
 ::placeholder {
-  color: #b9b9b9;
+  color: #35414b;
   opacity: 1;
 }
 
@@ -1196,9 +1196,9 @@ textarea {
   margin-bottom: 1.5rem;
   font-family: inherit;
   line-height: 1.5;
-  color: #3e3e3e;
-  background: white;
-  border: 1px solid #e6e6e6;
+  color: #d8e0e4;
+  background: #566875;
+  border: 1px solid #657785;
   border-radius: 0.25rem;
   box-shadow: none;
   transition: background linear 250ms, border-color linear 250ms;
@@ -1210,7 +1210,7 @@ textarea {
 }
 
 textarea:focus {
-  background: white;
+  background: #566875;
   border-color: #33c3f0;
   outline: 0;
 }
@@ -1220,9 +1220,9 @@ select {
   margin-bottom: 1.5rem;
   font-family: inherit;
   line-height: 1.5;
-  color: #3e3e3e;
-  background: white;
-  border: 1px solid #e6e6e6;
+  color: #d8e0e4;
+  background: #566875;
+  border: 1px solid #657785;
   border-radius: 0.25rem;
   box-shadow: none;
   transition: background linear 250ms, border-color linear 250ms;
@@ -1233,7 +1233,7 @@ select {
 }
 
 select:focus {
-  background: white;
+  background: #566875;
   border-color: #33c3f0;
   outline: 0;
 }
@@ -1269,7 +1269,7 @@ hr {
   margin: 1.5rem 0;
   overflow: visible;
   border: 0;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #657785;
 }
 
 img {
@@ -1324,7 +1324,7 @@ table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1.5rem;
-  font-size: 90%;
+  font-size: 80%;
   border-spacing: 0;
   border-collapse: collapse;
   background-color: transparent;
@@ -1344,11 +1344,11 @@ td {
   padding: 0.85rem 0.85rem;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #4c5c67;
 }
 
 .table-bordered {
-  border: solid 1px #e6e6e6;
+  border: solid 1px #4c5c67;
 }
 
 .table-headed th {
@@ -1360,7 +1360,7 @@ td {
 }
 
 .table-hover tbody tr:hover {
-  background-color: whitesmoke;
+  background-color: #657785;
 }
 
 h1,
@@ -1371,7 +1371,7 @@ h1,
 .h5, h6,
 .h6 {
   font-family: "Open Sans", sans-serif;
-  color: #3e3e3e;
+  color: #d8e0e4;
 }
 
 h1 small,
@@ -1445,7 +1445,7 @@ p {
 blockquote {
   padding: 1rem 1.5rem;
   margin-bottom: 1.5rem;
-  border-left: 3px solid #e6e6e6;
+  border-left: 3px solid #657785;
 }
 
 b,
@@ -1474,6 +1474,40 @@ sup {
 }
 
 /* add your custom modules here */
+html,
+body {
+  height: 100%;
+}
+
+body.login {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.login form {
+  width: 330px;
+  padding: 3rem 0 5rem;
+  margin: auto;
+}
+
+body.login form .links {
+  padding-top: 2rem;
+}
+
+thead th {
+  text-transform: uppercase;
+}
+
+tbody tr {
+  background-color: #566875;
+}
+
+tbody td {
+  padding: 2rem .85rem;
+  color: #d8e0e4;
+  border-top-width: .5rem;
+}
+
 /* karma utility helpers - probably best at the end of the stylesheet */
 .align-top {
   vertical-align: top;
@@ -1695,6 +1729,54 @@ sup {
 
 .c-pinterest {
   color: #bd081c;
+}
+
+.b-bigstone {
+  background-color: #35414b;
+}
+
+.c-bigstone {
+  color: #35414b;
+}
+
+.b-fiord {
+  background-color: #4c5c67;
+}
+
+.c-fiord {
+  color: #4c5c67;
+}
+
+.b-bluebayoux {
+  background-color: #566875;
+}
+
+.c-bluebayoux {
+  color: #566875;
+}
+
+.b-lynch {
+  background-color: #657785;
+}
+
+.c-lynch {
+  color: #657785;
+}
+
+.b-greychateau {
+  background-color: #9ca6ad;
+}
+
+.c-greychateau {
+  color: #9ca6ad;
+}
+
+.b-solitude {
+  background-color: #d8e0e4;
+}
+
+.c-solitude {
+  color: #d8e0e4;
 }
 
 .disabled {
