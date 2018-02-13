@@ -13,8 +13,17 @@ body.login {
 
   form {
     width: 330px;
-    padding: 3rem 0 5rem;
+    max-width: 100%;
+    padding: 3rem 1.5rem 15rem;
     margin: auto;
+
+    .logo {
+      margin: 0 auto 1.5rem;
+      font-size: 10rem;
+      line-height: 1;
+      color: color("fiord");
+      text-align: center;
+    }
 
     .links {
       padding-top: 2rem;
