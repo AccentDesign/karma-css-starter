@@ -1541,14 +1541,14 @@ body.login {
   display: flex;
 }
 
-body.login form {
+body.login .content {
   width: 330px;
   max-width: 100%;
   padding: 3rem 1.5rem 15rem;
   margin: auto;
 }
 
-body.login form .logo {
+body.login .content .logo {
   margin: 0 auto 1.5rem;
   font-size: 10rem;
   line-height: 1;
@@ -1556,7 +1556,7 @@ body.login form .logo {
   text-align: center;
 }
 
-body.login form .links {
+body.login .content .links {
   padding-top: 2rem;
 }
 

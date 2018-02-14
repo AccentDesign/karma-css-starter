@@ -9,14 +9,17 @@
         <link rel="stylesheet" type='text/css' href="dist/css/style.min.css">
     </head>
     <body class="login">
-        <form class="content" action="/index.html">
-            <div class="logo icon-lock-open-alt text-shadow"></div>
-            <input class="full-width" type="email" name="email" placeholder="Email address">
-            <input class="full-width" type="password" name="password" placeholder="Password">
-            <button class="button full-width" type="submit">Login</button>
-            <div class="links">
-                <a href="#">Forgotten your password?</a>
+        <div class="content">
+            <div class="logo icon-lock text-shadow"></div>
+            <p class="text-center">Are you sure you wish to logout?</p>
+            <div class="links row">
+                <div class="col">
+                    <a href="/index.html" class="button button-outline full-width">Back</a>
+                </div>
+                <div class="col">
+                    <a href="/login.html" class="button full-width">Logout</a>
+                </div>
             </div>
-        </form>
+        </div>
     </body>
 </html>
